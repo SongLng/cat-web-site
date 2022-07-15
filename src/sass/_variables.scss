@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+
+// colors
+
+$accent: #ff868e;
+$second-accent: #fbe0dc;
+$background: rgba(251, 224, 220, 1);
+$body-color: #e5e5e5;
+$main-color-font: #1d1d1d;
+$second-color-font: rgba(140, 140, 140, 1);
+
+$button-not-active-font: #8c8c8c;
+$button-not-active-back: #f8f8f7;
+$button: rgba(255, 255, 255, 1);
+
+// fonts
+
+$main-body-font: 'Jost', sans-serif;
+$big-font: 20px;
+$normal-font: 16px;
+$small-font: 12px;
+
+// Base
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $main-body-font;
+  font-size: $big-font;
+  background-color: $body-color;
+  color: $main-color-font;
+}
+h1 {
+  font-size: 44px;
+  font-weight: 500;
+}
+h2 {
+  color: $main-color-font;
+  font-weight: 500;
+}
+
+p {
+  color: $second-color-font;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+}
+.logo {
+  width: 107px;
+  margin-left: 117px;
+}
+
+.active {
+  color: $button;
+  background-color: $accent;
+}
