@@ -38,6 +38,7 @@ body {
   background-color: $body-color;
   color: $main-color-font;
 }
+
 h1 {
   font-size: 44px;
   font-weight: 500;
@@ -53,9 +54,14 @@ p {
   font-weight: 400;
 }
 
+ul {
+  list-style: none;
+}
+
 button {
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 .logo {
   width: 107px;
@@ -65,4 +71,17 @@ button {
 .active {
   color: $button;
   background-color: $accent;
+}
+
+.section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding: 30px;
+}
+
+.section__right {
+  position: relative;
+  width: 680px;
+  height: 840px;
 }

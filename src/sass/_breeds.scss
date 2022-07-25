@@ -1,0 +1,107 @@
+@mixin size($size) {
+  width: $size;
+  height: $size;
+}
+
+.title__voting {
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-size: 20px;
+  padding: 5px 30px;
+  width: 146px;
+  height: 40px;
+  background-color: $accent;
+  color: white;
+  border-radius: 10px;
+}
+
+.voting__img {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 52px;
+}
+
+.voting__img--cat {
+  width: 640px;
+}
+
+.menu__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  height: 40px;
+  width: 437px;
+}
+
+select {
+  display: flex;
+  border: solid 2px rgba(248, 248, 247, 1);
+  font-weight: 400;
+  color: rgba(140, 140, 140, 1);
+  font-size: $normal-font;
+  height: 40px;
+  background: rgba(248, 248, 247, 1);
+  border-radius: 10px;
+  appearance: none;
+  background-image: url(../images/icon/dropdown.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  padding: 8px 10px;
+  outline: none;
+
+  cursor: pointer;
+  &:focus,
+  &:hover {
+    border: solid 2px $second-accent;
+  }
+}
+
+.select__breeds {
+  width: 226px;
+}
+
+.select__limit {
+  width: 101px;
+}
+
+.button__sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  &:hover {
+    border: solid 2px $second-accent;
+    .button__sort--icon {
+      fill: $accent;
+    }
+  }
+  &--icon {
+    width: 18px;
+    height: 21px;
+    fill: $button-not-active-font;
+  }
+}
+
+.breeds__container {
+  margin-top: 20px;
+  width: 640px;
+  height: 746px;
+}
+
+.breeds__list {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+
+  grid-gap: 20px;
+}
+
+.breeds__item {
+  width: 200px;
+}
+
+.breeds__img {
+  width: 100%;
+}
