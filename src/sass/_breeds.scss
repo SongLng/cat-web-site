@@ -26,7 +26,7 @@
   width: 640px;
 }
 
-.menu__wrapper {
+.menu__wrapper--breeds {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,7 +88,7 @@ select {
 .breeds__container {
   margin-top: 20px;
   width: 640px;
-  height: 746px;
+  // height: 746px;
 }
 
 .breeds__list {
@@ -99,8 +99,8 @@ select {
   row-gap: 20px;
 }
 
-.breeds__item {
-}
+// .breeds__item {
+// }
 
 .breeds__img {
   width: 100%;

@@ -47,9 +47,9 @@
                     </div>
 
                 </div>
-                <div class="menu__wrapper">
-                    <form action="">Order
-                        <select name="" id="">
+                <div class="menu__wrapper--gallery">
+                    <form class="menu__form" action="">Order
+                        <select class="select__gallery select__gallery--order" name="random" id="">
                             <option value="">
                                 Random
                             </option>
@@ -57,8 +57,8 @@
                             <option value="">Asc</option>
                         </select>
                     </form>
-                    <form action="">Type
-                        <select name="" id="">
+                    <form class="menu__form" action="">Type
+                        <select class="select__gallery select__gallery--type" name="all" id="">
                             <option value="">
                                 All
                             </option>
@@ -66,8 +66,8 @@
                             <option value="">Animated</option>
                         </select>
                     </form>
-                    <form action="">Breed
-                        <select name="" id="">
+                    <form class="menu__form" action="">Breed
+                        <select class="select__gallery select__gallery--breed" name="" id="">
                             <option value="">
                                 None
                             </option>
@@ -82,15 +82,18 @@
                             <option value="">...</option>
                         </select>
                     </form>
-                    <form action="">Limit
-                        <select name="" id="">
+                    <form class="menu__form menu__form--limit" action="">Limit
+                        <select class="select__gallery select__gallery--limit" name="" id="">
                             <option value="">5 items per page</option>
                             <option value="">5 items per page</option>
                             <option value="">5 items per page</option>
                             <option value="">5 items per page</option>
                         </select>
-                    </form>
 
+                    </form>
+                    <button class="button__refresh"><svg class="button__refresh--icon">
+                            <use href="./images/icon/icons.svg#refresh"></use>
+                        </svg></button>
                 </div>
                 <div class="breeds__container">
                     <ul class="breeds__list">
@@ -109,6 +112,13 @@
                         <li class="breeds__item">
                             <img class="breeds__img" src="./images/voting-img.png" alt="breeds img">
                         </li>
+                        <li class="breeds__item">
+                            <img class="breeds__img" src="./images/voting-img.png" alt="breeds img">
+                        </li>
+                        <!-- <li class="breeds__item">
+                            <img class="breeds__img" src=`(${imageURL})` alt="breeds img">
+                        </li> -->
+
                     </ul>
 
 

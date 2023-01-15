@@ -1,0 +1,46 @@
+.menu__info{
+
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 1.5;
+        font-size: 20px;
+        padding: 5px 30px;
+        width: 146px;
+        height: 40px;
+        background-color: $second-accent;
+        color: $accent;
+        border-radius: 10px;
+
+}
+
+.info__id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: $accent;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+.info__container--img{
+    width: 640px;
+    height: 360px;
+}
+
+.slider{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.slider__img{
+    content: "";
+    
+}
